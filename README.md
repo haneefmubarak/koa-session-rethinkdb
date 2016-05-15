@@ -1,42 +1,44 @@
-# koa-session
+# koa-session-rethinkdb
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
-[![Gittip][gittip-image]][gittip-url]
+[]([![build status][travis-image]][travis-url])
+[]([![Test coverage][coveralls-image]][coveralls-url])
+[]([![Gittip][gittip-image]][gittip-url])
 [![David deps][david-image]][david-url]
-[![iojs version][iojs-image]][iojs-url]
+[]([![iojs version][iojs-image]][iojs-url])
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/koa-session.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/koa-session
+[npm-image]: https://img.shields.io/npm/v/koa-session-rethinkdb.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/koa-session-rethinkdb
 [travis-image]: https://img.shields.io/travis/koajs/session.svg?style=flat-square
 [travis-url]: https://travis-ci.org/koajs/session
 [coveralls-image]: https://img.shields.io/coveralls/koajs/session.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/koajs/session?branch=master
 [gittip-image]: https://img.shields.io/gittip/fengmk2.svg?style=flat-square
 [gittip-url]: https://www.gittip.com/fengmk2/
-[david-image]: https://img.shields.io/david/koajs/session.svg?style=flat-square
-[david-url]: https://david-dm.org/koajs/session
+[david-image]: https://img.shields.io/david/haneefmubarak/koa-session-rethinkdb.svg?style=flat-square
+[david-url]: https://david-dm.org/haneefmubarak/koa-session-rethinkdb
 [iojs-image]: https://img.shields.io/badge/io.js-%3E=_1.0-yellow.svg?style=flat-square
 [iojs-url]: http://iojs.org/
-[node-image]: https://img.shields.io/badge/node.js-%3E=_0.12-green.svg?style=flat-square
+[node-image]: https://img.shields.io/badge/node.js-%3E%3D%205.0-brightgreen.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
-[download-image]: https://img.shields.io/npm/dm/koa-session.svg?style=flat-square
-[download-url]: https://npmjs.org/package/koa-session
+[download-image]: https://img.shields.io/npm/dm/koa-session-rethinkdb.svg?style=flat-square
+[download-url]: https://npmjs.org/package/koa-session-rethinkdb
 
- Simple cookie-based session middleware for Koa.
+RethinkDB cookie-store based session middleware for Koa.
+
+Based off of [koa-session](https://github.com/koajs/session).
 
 ## Installation
 
-```js
-$ npm install koa-session
+```bash
+$ npm install koa-session-rethinkdb
 ```
 
 ## Example
 
-  View counter example:
+View counter example:
 
 ```js
 var session = require('koa-session');
